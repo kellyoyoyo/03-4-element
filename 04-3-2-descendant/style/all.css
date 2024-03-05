@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+* {
+	box-sizing: border-box;
+}
+
+body,
+button,
+input {
+	font-family: Arial, Helvetica, "微軟正黑體", sans-serif;
+	font-size: 16px;
+}
+
+.wrap {
+	display: flex;
+	justify-content: center;
+}
+
+.login {
+	width: 25%;
+	margin: 15px;
+	background-color: #eee;
+	border: solid 1px #ddd;
+}
+
+.login__body {
+	margin-bottom: 30px;
+}
+
+.login__row {
+	margin: 15px;
+}
+
+.login__label {
+	display: block;
+	margin-bottom: 5px;
+	color: #999;
+}
+
+.login__iptText {
+	display: block;
+	padding: 7px 10px;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+}
+
+.login .btn {
+	width: 100%;
+	font-size: 18px;
+}
+
+.btn {
+	border: none;
+}
+
+.btn-primary {
+	padding: 7px 10px;
+	background-color: #0288d1;
+	color: #fff;
+	border-radius: 3px;
+}
+
+/*
+	紅色: #d32f2f
+	橙色: #ef9100
+	綠色: #689f38
+*/
+
+.alert {
+	font-size: 13px;
+	margin: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-style: solid;
+	border-width: 1px;
+}
+
+
+.alert-danger {
+	border-color: #d32f2f;
+	background-color: #f9bfbf;
+	color: #d32f2f;
+
+}
+
+
+
+
+.alert p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+
+.alert-warning {
+	border-color: #ef9100;
+	background-color: #ffeed4;
+	color: #a99371;
+}
+
+.alert-pass {
+	border-color: #3a4a2c;
+	background-color: #d9f4bf;
+	color: #689f38;
+}
