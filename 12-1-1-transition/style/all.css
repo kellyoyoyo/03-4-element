@@ -1,0 +1,11 @@
+@charset "utf-8";
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: brown;
+}
+
+.box:hover {
+	width: 1000px;
+	height: 500px;
+}
