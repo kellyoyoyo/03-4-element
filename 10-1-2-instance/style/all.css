@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+
+body{
+    background-color: #ccc;
+
+}
+
+.slider{
+    padding: 10px;
+    background-color: #fff;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+}
+
+.slider-img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+.slider-ul{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    
+}
+
+.slider-li{
+    padding: .5rem .7rem;
+    background-color: #aaa;
+    color:#fff;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1;
+}
+
+.slider-li:hover{
+    background-color: black;
+    cursor: pointer;
+
+}
+
+
+.slider-btn{
+    position: absolute;
+    bottom: 50%;
+    margin-bottom: -24px;
+
+    width: 30px;
+    height: 47px;
+    background-image: url("../images/arrow.png") ;
+    border: none;
+    background-color: transparent;
+    text-indent: -9999px;
+   
+    
+
+
+}
+
+.slider-btn:hover{
+    cursor: pointer;
+}
+
+
+.slider-btn-prev{
+    left: 0;
+    background-position-x: -27px;
+}
+
+.slider-btn-next{
+    right: 0;
+}
+
