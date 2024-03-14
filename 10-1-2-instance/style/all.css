@@ -6,13 +6,27 @@ body{
 
 }
 
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-lg{
+    max-width: 900px;
+}
+
+.container-md{
+    max-width: 600px;
+}
+
+
+
 .slider{
     padding: 10px;
     background-color: #fff;
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+
     position: relative;
+    margin-bottom: 10px;
 
 }
 
